@@ -1,3 +1,4 @@
+#[path = "ex01_fast_exp.rs"]
 mod ex01_fast_exp;
 
 pub fn inverse(elem: u32, modulus: u32) -> u32 {

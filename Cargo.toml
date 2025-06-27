@@ -11,5 +11,9 @@ name = "w01_ex01"
 path = "src/week01/ex01_fast_exp.rs"
 
 [[bin]]
-name = "w02_ex03"
+name = "w01_ex03"
 path = "src/week01/ex03_fermat.rs"
+
+[[bin]]
+name = "w01_ex04"
+path = "src/week01/ex04_elgamal.rs"
