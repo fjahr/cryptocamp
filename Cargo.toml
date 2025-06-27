@@ -1,0 +1,15 @@
+[package]
+name = "cryptocamp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[[bin]]
+name = "w01_ex01"
+path = "src/week01/ex01_fast_exp.rs"
+
+[[bin]]
+name = "w02_ex03"
+path = "src/week01/ex03_fermat.rs"
