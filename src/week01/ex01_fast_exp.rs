@@ -2,8 +2,9 @@ pub fn fast_power(base: u32, exp: u32, modulus: u32) -> u32 {
     let mut res = 1u32;
     let mut mask = 1u32;
     let mut a = base;
+    let max_bit = u32::BITS - exp.leading_zeros();
 
-    for i in 0..32 {
+    for i in 0..max_bit {
         if exp & mask != 0 {
             res = (res * a) % modulus;
         }
