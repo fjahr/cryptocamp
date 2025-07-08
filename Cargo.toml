@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
 
 
 [[bin]]
@@ -17,3 +19,7 @@ path = "src/week01/ex03_fermat.rs"
 [[bin]]
 name = "w01_ex04"
 path = "src/week01/ex04_elgamal.rs"
+
+[[bin]]
+name = "w02_secp"
+path = "src/week02/secp/ex.rs"
